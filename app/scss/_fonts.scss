@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "PT Sans Caption";
+  src: url(../fonts/PTSansCaption-Regular.woff2) format("woff2"),
+    url(../fonts/PTSansCaption-Regular.woff) format("woff");
+}
+@font-face {
+  font-family: "Manrope";
+  src: url(../fonts/Manrope-VariableFont_wght.woff2) format("woff2"),
+    url(../fonts/Manrope-VariableFont_wght.woff) format("woff");
+}
+
+h2 {
+  font-family: "PT Sans Caption", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 3.6rem;
+}
+
+a,
+p {
+  font-family: "Manrope", Arial, Helvetica, sans-serif;
+}
+
+button {
+  font-family: "Manrope", Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
